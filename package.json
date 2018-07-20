@@ -1,0 +1,40 @@
+{
+  "name": "storybook-npm",
+  "version": "1.0.0",
+  "description": "using storybook to demo",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/melissakconn/storybook-npm.git"
+  },
+  "keywords": [
+    "storybook-npm",
+    "react"
+  ],
+  "author": "Melissa Conn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/melissakconn/storybook-npm/issues"
+  },
+  "homepage": "https://github.com/melissakconn/storybook-npm#readme",
+  "dependencies": {
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "storybook": "^1.0.0"
+  },
+  "devDependencies": {
+    "@storybook/react": "^3.4.8",
+    "babel-core": "^6.26.3",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "storybook": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "^16.4.1"
+  }
+}
